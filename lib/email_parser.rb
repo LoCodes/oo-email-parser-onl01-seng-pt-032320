@@ -6,10 +6,10 @@
 
 # EmailAddressParser
 #   #parse
-#     parses CSV emails (FAILED - 1)
-#     parses space delimited emails (FAILED - 2)
-#     parses both CSV and space delimited emails (FAILED - 3)
-#     parses and removes duplicate emails (FAILED - 4)
+#     parses CSV emails 
+#     parses space delimited emails
+#     parses both CSV and space delimited emails
+#     parses and removes duplicate emails
 
 
 class EmailAddressParser
@@ -20,6 +20,6 @@ class EmailAddressParser
   end
 
   def parse
-    emails.split(/, | /).uniq   # deleting the (,) and whatever after with | 
+    emails.split(/, | /).uniq   # deleting the (,) and whatever after with |
   end
 end
