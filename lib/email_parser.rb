@@ -6,10 +6,13 @@
 
 # EmailAddressParser
 #   #parse
-#     parses CSV emails 
+#     parses CSV emails
 #     parses space delimited emails
 #     parses both CSV and space delimited emails
 #     parses and removes duplicate emails
+#
+# You should be able to initialize with a list of email addresses either separated with spaces
+#  or separated with commas. The parse method should, additionally, only return unique addresses.
 
 
 class EmailAddressParser
